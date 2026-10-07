@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./MarketScanner.css";
 
-const apiBase = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const apiBase = "https://lightpull-p3dl.onrender.com";
 const singleTimeframes = ["1D", "1W"];
 const multiTimeframes = ["1D", "1W"];
 const sessions = ["Any", "London", "New York", "Tokyo", "Sydney"];
