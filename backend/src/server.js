@@ -8,7 +8,7 @@ const scannerRoutes = require("./routes/autoscanner");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json({ limit: "20mb" }));
 app.use("/",scannerRoutes);
 
